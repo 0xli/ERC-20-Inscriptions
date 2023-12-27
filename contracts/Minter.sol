@@ -9,7 +9,7 @@ import "./EthrunesProtocol.sol";
 contract Minter is Ownable, EthrunesProtocol, Pausable {
 
     string  public _inscription = 'data:,{"p":"erc-20","op":"mint","tick":"bgle","amt":"1000"}';
-    uint256 public constant FEE = 0.1 ether;
+    uint256 public constant FEE = 0.001 ether;
     uint256 public constant MAX_COUNT = 210000000;
     uint256 public counter = 0;
 
